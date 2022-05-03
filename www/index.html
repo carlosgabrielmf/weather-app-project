@@ -11,10 +11,18 @@
   <body>
     <!--we created a document for the our app-->
     <header class="card">
-      <img src="../src/img/sun around.gif" alt="gif sun around" />
+      <img class="sun" src="../www/img/sun around.gif" alt="gif sun around" />
       <h1>WeatherAPP</h1>
-      <h2 id="rain">It will rain in the city</h2>
-      <h2 id="noRain">it will not rain in the city</h2>
+      <div id="response-area">
+        <section id="rain">
+          <img src="../www/img/rain.gif" alt="" />
+          <h2>It will rain in the city</h2>
+        </section>
+        <section id="noRain">
+          <img src="../www/img/sundAndClouds.gif" alt="" />
+          <h2>it will not rain in the city</h2>
+        </section>
+      </div>
     </header>
     <main>
       <section>
@@ -26,6 +34,6 @@
     <footer>
       <p>Made by Carlos Gabriel Mosquera</p>
     </footer>
-    <script src="../src/app/index.js"></script>
+    <script src="../www/app/index.js"></script>
   </body>
 </html>

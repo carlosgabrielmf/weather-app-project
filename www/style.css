@@ -33,9 +33,14 @@ body{
 }
 
 img{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
 }
 
 h1{
@@ -44,11 +49,20 @@ h1{
     text-shadow:rgb(53, 53, 53) 0px 0px 10px;
 }
 
+h2{
+    color: rgb(42, 42, 42);
+    text-shadow:rgb(35, 35, 35) 0px 0px 10px;
+}
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#response-area{
+    min-height: 8rem;
 }
 
 section{
@@ -72,13 +86,13 @@ section{
   background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
 }
 
-#rain{
-    visibility: hidden;
+ #rain{
+    display: none;
     text-shadow:rgb(53, 53, 53) 0px 0px 10px;
 }
 
 #noRain{
-    visibility: hidden;
+    display: none;
     text-shadow:rgb(53, 53, 53) 0px 0px 10px;
 }
 
